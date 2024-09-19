@@ -28,6 +28,7 @@ header .container .burgermenu{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 0 10px;
 }
 
 header .container .settings{
@@ -37,6 +38,7 @@ header .container .settings{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 10px 0 0;
 }
 
 header .container section{
