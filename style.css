@@ -48,7 +48,7 @@ header .container section{
     align-items: center;
     width: 224px;
     height: 44px;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 header .container section input{
@@ -99,6 +99,7 @@ main{
     border: solid black 1px;
     transition: all ease 0.2s;
     border-radius: 100px;
+    box-shadow: 0 0 6 black;
 }
 
 .item button:active{
