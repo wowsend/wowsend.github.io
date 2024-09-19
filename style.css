@@ -46,7 +46,7 @@ header .container section{
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 40%;
+    width: 200px;
     height: 40px;
 }
 
