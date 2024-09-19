@@ -13,7 +13,6 @@ body{
 
 header{
     padding: 10px 0;
-    width: 330;
 }
 
 header .container{
@@ -96,6 +95,7 @@ main{
     margin: 10px 0 10px 0;
     border: solid black 1px;
     transition: all ease 0.2s;
+    border-radius: 100%;
 }
 
 .item button:active{
