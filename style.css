@@ -68,6 +68,7 @@ header .container section button{
     border: none;
     width: 44px;
     height: 100%;
+    font-size: 18px;
 }
 
 main{
