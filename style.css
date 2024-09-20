@@ -92,6 +92,10 @@ main{
     background-color: rgba(0, 0, 0, 0.151);
 }
 
+.item p{
+    margin: 2px 0 2px 0;
+}
+
 .item button{
     background-color: black;
     color: white;
