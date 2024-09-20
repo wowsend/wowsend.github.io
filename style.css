@@ -7,7 +7,7 @@
 body{
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 390px;
+    max-width: 380px;
     height: 100%;
 }
 
@@ -17,8 +17,11 @@ header{
 
 header .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 330px;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 header .container .burgermenu{
@@ -28,7 +31,7 @@ header .container .burgermenu{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 0 0 20px;
+    border-radius: 100px;
 }
 
 header .container .settings{
@@ -38,17 +41,16 @@ header .container .settings{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 20px 0 0;
+    border-radius: 100px;
 }
 
 header .container section{
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 224px;
+    width: 214px;
     height: 44px;
-    border-radius: 0px;
 }
 
 header .container section input{
@@ -64,7 +66,7 @@ header .container section button{
     outline: none;
     background-color: white;
     border: none;
-    width: 40px;
+    width: 44px;
     height: 100%;
 }
 
@@ -97,13 +99,5 @@ main{
     height: 40px;
     margin: 10px 0 10px 0;
     border: solid black 1px;
-    transition: all ease 0.2s;
     border-radius: 100px;
-    box-shadow: 0 0 6 black;
-}
-
-.item button:active{
-    background-color: white;
-    color: black;
-    transition: all ease 0.2s;
 }
