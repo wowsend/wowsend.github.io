@@ -103,5 +103,9 @@ main{
 }
 
 .usercard{
-    background-color: red;
+    background-color: brown;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    border-top: 2px solid black;
 }
