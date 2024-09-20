@@ -95,12 +95,12 @@ main{
 .item button{
     background-color: black;
     color: white;
-    border: none;
-    width: 80%;
+    border: 4px dashed black;
+    width: 84%;
     height: 40px;
     margin: 10px 0 10px 0;
     border: solid black 1px;
-    border-radius: 100px;
+    border-radius: 0px;
 }
 
 .usercard{
