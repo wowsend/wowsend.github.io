@@ -98,7 +98,7 @@ main{
     width: 80%;
     height: 40px;
     margin: 10px 0 10px 0;
-    border: solid black 1px;
+    border: solid dashed 1px;
     border-radius: 100px;
 }
 
@@ -106,6 +106,6 @@ main{
     background-color: brown;
     text-align: center;
     background-color: white;
-    border-radius: 10px 10px 0 0;
-    border-top: 2px solid black;
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid black;
 }
