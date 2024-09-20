@@ -42,7 +42,7 @@ header .container .settings{
 }
 
 header .container section{
-    border: black 1px none none solid none;
+    border-bottom: 1px solid black; 
     display: flex;
     justify-content: start;
     align-items: center;
